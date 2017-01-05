@@ -20,12 +20,12 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # Gems that must be intalled for sift to compile and build
-  s.add_development_dependency "rspec", "~> 2.0"
+  s.add_development_dependency "rspec", "~> 3.5.0"
   s.add_development_dependency "webmock", "~>  1.0"
-  s.add_development_dependency("rake", "~> 11.0")
+  s.add_development_dependency("rake", "~> 12.0")
 
   # Gems that must be intalled for sift to work
-  s.add_dependency "httparty", "~> 0.13.1"
+  s.add_dependency "httparty", "~> 0.14.0"
   s.add_dependency "multi_json", "~> 1.0"
   s.add_dependency "sift", "~> 1.1.7"
 end
